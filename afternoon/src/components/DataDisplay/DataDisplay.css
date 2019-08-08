@@ -1,0 +1,41 @@
+.display-data-box {
+    width: 55vw;
+    height: 35vh;
+    margin-top: 100px;
+    background: white; 
+    display: flex;
+    flex-direction: column; 
+}
+
+.reference-number {
+    font-size: 25px; 
+    font-weight: bold;
+    margin-right: 10px;
+    display: flex; 
+    justify-content: flex-end;
+}
+
+.full-name {
+    font-size: 25px;
+    font-weight: bold; 
+    margin-left: 40px;
+    display: flex;
+    justify-content: flex-start; 
+}
+
+.full-name span {
+    border-bottom: rgb(59, 183, 224) 1px solid;
+}
+
+.bold-title {
+    font-weight: bold;
+}
+
+.personal-info ul li {
+    list-style-type: none; 
+    padding-top: 5px;
+}
+
+.favorite-movies-list li {
+    margin-left: 50px;
+}
